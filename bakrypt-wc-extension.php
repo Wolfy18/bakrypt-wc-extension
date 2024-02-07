@@ -4,7 +4,7 @@
  * Plugin Name: BrandGuard QR
  * Plugin URI: https://bakrypt.io
  * Description: Mint your products into the Cardano Blockchain
- * Version: 1.3.4
+ * Version: 1.3.5
  * Author: Wolfgang Leon
  * Author URI: https://bakrypt.io/
  * Developer: Wolfgang Leon

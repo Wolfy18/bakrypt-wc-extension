@@ -4,14 +4,35 @@ Donate link: https://bakrypt.io/pool/
 Tags: NFT, Cardano, Blockchain, WooCommerce, Tokenization, Supply Chain, QR Codes, Asset Tracking
 Requires at least: 6.0
 Tested up to: 6.4.3
-Stable tag: 1.3.4
+Stable tag: 1.3.5
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 BrandGuard QR, is an innovative plugin that is revolutionizing the world of e-commerce.
 
-== Description ==
+== Revolutionize Product Identification ==
+
+Generate dynamic product identification codes on-demand, effectively replacing and enhancing traditional GTIN/UPC usage backed by Cardano Blockchain and IPFS Network, ensuring a fully decentralized and secure system.
+
+== On-Demand Product Code Generation: ==
+- Enjoy the benefits of a fully decentralized system, ensuring enhanced security and transparency.
+- Seamless integration with Bakrypt’s Woocommerce Plug-In for a user-friendly and swift implementation.
+- Generate product codes as needed, eliminating the need for predetermined codes and providing flexibility for various scenarios.
+- Significantly lower costs compared to traditional methods, with no annual renewals required.
+- Data is stored on a public, immutable, and auditable blockchain, instilling confidence in data integrity.
+
+== Enriched Customer Engagement: ==
+- Elevate customer experience by providing additional product information through the generated identification codes.
+- Strengthen brand engagement by offering customers a deeper understanding of the product's unique features, benefits, and origin.
+
+== Blockchain-Enabled Anti-Counterfeit Certification: ==
+- Leverage cutting-edge Blockchain Technology for a failsafe Proof of Authenticity through a Certificate of Origin.
+- Ensure the legitimacy of your products by certifying them on the blockchain, safeguarding against counterfeiting.
+
+By seamlessly integrating BrandGuard QR into your WooCommerce platform, you not only enhance the security and authenticity of your products but also create a more engaging and informative shopping experience for your customers. Moreover, BrandGuard QR serves as a robust substitute for traditional UPC codes, offering a dynamic and decentralized solution that adapts to your evolving business needs. Elevate your product identification and traceability while providing customers with a cutting-edge shopping experience.
+
+== How does it work? ==
 
 With this plugin, you can easily mint your existing or new products into collections of NFTs or Fungible tokens with just a few clicks. The system will automatically pick up metadata from your products and generate a valid JSON structure. Bakrypt's API will mint the object as a Cardano native token according to your preferences.  Once the transaction is confirmed, the fingerprint of the minted NFT is linked to the product in your store. You can also create QR codes of the fingerprint! Go to your products list, select your minted products and select "Create QR Codes" from the bulk actions dropdown.
 
@@ -21,11 +42,22 @@ The plugin implements WordPress native cron tasks; the plugin will automatically
 
 Learn more 🚀 -> [Plugin's Docs](https://bakrypt.readme.io/reference/blockchain-tokenization-extension-for-woocommerce)
 
-== Shortcode ==
+== Shortcodes ==
 
 [ bak_asset_tracking ]
 
 Use the Asset Tracking shortcode anywhere in your website to include a public form that verifies an asset fingerprint with an existing product in your store.
+
+== Register with Bakrypt.io ==
+We use Bakrypt's API to conveniently interact with the blockchain. Therefore, it's required to create an account in our platform.
+
+* Create an account for mainnet:
+- [Mainnet Bakrypt API](https://bakrypt.io/account/login/) 
+- [Remember to set your password](https://bakrypt.io/account/password_reset/) 
+
+* Create an account for testnet.
+- [Testnet Bakrypt API](https://testnet.bakrypt.io/account/login/) 
+- [Remember to set your password](https://testnet.bakrypt.io/account/password_reset/) 
 
 == Demo ==
 
@@ -54,24 +86,13 @@ NFTs could also be used to verify the authenticity of products, by linking them 
 
 Overall, the use of NFTs in a supply chain could help companies improve transparency, traceability, and authenticity, which could in turn enhance customer trust and loyalty.
 
-== Register with Bakrypt.io ==
-We use Bakrypt's API to conveniently interact with the blockchain. Therefore, it's required to create an account in our platform.
-
-* Create an account for mainnet:
-[Mainnet Bakrypt API](https://bakrypt.io/account/login/) 
-[Remember to set your password](https://bakrypt.io/account/password_reset/) 
-
-* Create an account for testnet.
-[Testnet Bakrypt API](https://testnet.bakrypt.io/account/login/) 
-[Remember to set your password](https://testnet.bakrypt.io/account/password_reset/) 
-
 == Cardano Blockchain ==
 
 Cardano is a decentralized public blockchain and cryptocurrency project that is focused on providing a secure and scalable platform for the creation and use of non-fungible tokens (NFTs).
 
 **Bakrypt Docs**
-[Getting started with our API](https://bakrypt.readme.io/reference/getting-started-with-your-api)
-[Swagger Environment](https://bakrypt.io/docs/)
+- [Getting started with our API](https://bakrypt.readme.io/reference/getting-started-with-your-api)
+- [Swagger Environment](https://bakrypt.io/docs/)
 
 == Installation ==
 
@@ -126,6 +147,11 @@ WooCommerce is a scalable platform that can handle a large volume of traffic and
 16. Asset Tracking shortcode in post edit view
 
 == Changelog ==
+
+= 1.3.5 =
+* fix: fixed typo
+* fix: upgraded bakrypt launchpad version
+* chore: updated readme files
 
 = 1.3.4 =
 * fix: Fixed bug related to the woocommerce tabs in the product detail page

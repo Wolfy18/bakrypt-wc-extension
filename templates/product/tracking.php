@@ -12,7 +12,7 @@ defined('ABSPATH') || exit;
 $product_attributes = $product->get_attributes();
 
 array_push($product_attributes, array(
-	"label" => "Fingeprint",
+	"label" => "Fingerprint",
 	"value" => $fingerprint
 ));
 
